@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+.cbsas {
+  font-size: 3rem !important;
+  font-weight: 500 !important;
+}
+
+.cbsas-desc {
+  font-size: 1.25rem !important;
+}
+
+.logo-codoacodo {
+  width: 110px;
+}
+
+.logo-codoacodo:hover {
+  filter: brightness(120%) !important;
+}
+
+.conf-Bs-As {
+  font-size: 1.3rem !important;
+  text-shadow: 10px #3c4042;
+}
+
+.conf-Bs-As:hover {
+  color: #fae106 !important;
+}
+
+.nav-container {
+  background-color: #3c4042;
+}
+
+.secondary-links {
+  color: grey !important;
+}
+
+.navlinks:hover {
+  color: white !important;
+}
+
+.compra-tickets-link {
+  color: #0a8a1b !important;
+}
+
+.carousel-size {
+  height: calc(100vh - 78px) !important;
+}
+
+.carousel-size img {
+  position: absolute;
+  overflow: hidden;
+  top: -30px;
+  width: 120vw;
+  filter: brightness(60%);
+}
+
+.carousel-caption {
+  margin-left: 40%;
+  display: flex !important;
+  height: 40vh;
+  justify-content: flex-end !important;
+  align-items: right !important;
+  height: 40vh;
+  width: 35%;
+  text-align: right !important;
+
+}
+
+
+.txt-oradores {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 200px !important;
+  border-width: 1px;
+  border-radius: 7px !important;
+
+}
+
+.cuadro-hawaii {
+  padding: 0px !important;
+  background-color: #3c4042;
+  color: white;
+
+}
+
+.texto-hawaii{
+  border-left: 1px solid !important;
+}
+
+.imagen-hawaii {
+  width: fit-content;
+  padding: 0px !important;
+
+}
+
+.cuadro-hawaii-titulo {
+  margin-top: 20px;
+  font-size: 2.3rem;
+}
+
+.charla-ignite {
+  color: black !important;
+}
+
+.registro-container {
+  width: 50% !important;
+}
+
+.btn-enviar{
+  background-color: #5cb441 !important;
+  border: 1px solid #5cb441 !important;
+}
+
+.btn-enviar:hover {
+  background-color: #237a09 !important;
+  border: 1px solid #237a09 !important;
+}
+
+footer {
+  height: 80px;
+  background-image: linear-gradient(to right, #1d3e4e, #1c658f);
+}
+
+.link-footer {
+  text-decoration: none !important;
+  font-size: 1.2rem !important;
+
+}
+
+.link-footer:hover {
+  color: #7f7e8a !important;
+}
