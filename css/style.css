@@ -6,16 +6,16 @@
 }
 
 .cbsas {
-  font-size: 3rem !important;
+  font-size: 2.3vw !important;
   font-weight: 500 !important;
 }
 
 .cbsas-desc {
-  font-size: 1.25rem !important;
+  font-size: 0.9vw !important;
 }
 
 .logo-codoacodo {
-  width: 110px;
+  width: 6vw;
 }
 
 .logo-codoacodo:hover {
@@ -23,7 +23,7 @@
 }
 
 .conf-Bs-As {
-  font-size: 1.3rem !important;
+  font-size: 1.3vw !important;
   text-shadow: 10px #3c4042;
 }
 
@@ -47,7 +47,11 @@
   color: #0a8a1b !important;
 }
 
-.carousel-size {
+.carousel-inner {
+  height: calc(100vh - 78px) !important;  
+}
+
+.carousel-item {
   height: calc(100vh - 78px) !important;
 }
 
@@ -55,22 +59,37 @@
   position: absolute;
   overflow: hidden;
   top: -30px;
-  width: 120vw;
+  width: 100vw;
   filter: brightness(60%);
 }
 
 .carousel-caption {
+  position: relative;
   margin-left: 40%;
   display: flex !important;
-  height: 40vh;
+  height: 40%;
   justify-content: flex-end !important;
   align-items: right !important;
-  height: 40vh;
   width: 35%;
   text-align: right !important;
+  border: 5px;
+  border-color: black;
 
 }
 
+.btn-orador {
+  font-size: 0.85vw !important;
+}
+
+.btn-comprar-ticket {
+  font-size: 0.85vw !important;
+}
+
+.btn-comprar-ticket:hover {
+  font-size: 0.85vw !important;
+  background-color: red !important;
+  border: 1px solid #144705 !important;
+}
 
 .txt-oradores {
   font-size: 2rem;
