@@ -149,6 +149,8 @@
 footer {
   height: 80px;
   background-image: linear-gradient(to right, #1d3e4e, #1c658f);
+  position: fixed;
+  bottom: 0;
 }
 
 .link-footer {
@@ -160,3 +162,64 @@ footer {
 .link-footer:hover {
   color: #7f7e8a !important;
 }
+.grupo-cards {
+  margin-top: 30px;
+
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  
+}
+
+
+.grupo-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  
+}
+
+.card {
+  width: 200px !important;
+  align-items: center;
+}
+
+.card-text {
+  text-align: center;
+  margin: 0 !important;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.title-h3 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.lblCantCat p {
+  margin: 11px;
+}
+
+.total-pagar {
+  display: flex;
+  background-color: rgb(160, 179, 201);
+  height: 60px;
+  width: 100%;
+  margin: auto !important;
+  align-items: center;
+  border-radius: 5px;
+  
+  padding-left: 4px;
+
+  
+}
+
+.text-shadow {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
