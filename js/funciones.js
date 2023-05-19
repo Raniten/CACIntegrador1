@@ -23,15 +23,25 @@ function calcular() {
             porcentaje = 0.85;
             break;
     }
+    
+    if (cantidadEntradas > 10) {
+        h4.textContent = "Cantidad máxima permitida: 10 entradas";
+        document.getElementById("total-pagar").style.backgroundColor="red";
 
-    var resultado = cantidadEntradas * 200 * porcentaje;
-    console.log(porcentaje);
-    h4.textContent = h4.textContent + resultado;
+    } else if (cantidadEntradas > 0) {
+        var resultado = cantidadEntradas * 200 * porcentaje;
+        document.getElementById("total-pagar").style.backgroundColor="rgb(160, 179, 201)";
+        h4.textContent = "Total a Pagar: $ " + resultado;
+    } else {
+        document.getElementById("total-pagar").style.backgroundColor="rgb(160, 179, 201)";
+        h4.textContent = "Total a Pagar: $ ";
+    } 
 }
 
 function borrar() {
     var h4 = document.getElementById("resultado");
     h4.textContent ="Total a Pagar: $"
+    document.getElementById("total-pagar").style.backgroundColor="rgb(160, 179, 201)";
 
     var cantidadComprada = document.getElementById("cantidad");
     cantidadComprada.value = "";

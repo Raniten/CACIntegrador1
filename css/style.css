@@ -186,6 +186,9 @@ footer {
   width: 200px !important;
   align-items: center;
 }
+.card:hover {
+  box-shadow: 15px 10px 15px 2px rgba(64, 60, 60, 0.315);
+}
 
 .card-text {
   text-align: center;
